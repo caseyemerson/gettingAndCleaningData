@@ -1,6 +1,10 @@
 # Getting And Cleaning Data - Final Project
 This repo contains the final project for the Coursera Getting and Cleaning Data course. There are two files: **run_analysis.R** and **tidy.txt**. run_analysis.R contains the commented R code to create the tidy.txt dataset.
 
+## About The Dataset
+The [zipped data set] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) comes from the [Human Activity Recognition Using Smartphones Data Set] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+
+## About The Script
 The `run_analysis.R` script does the following:
 
 0. Loads necessary packages, downloads the dataset, unzips the data and reads it into the tables. 
@@ -10,4 +14,4 @@ The `run_analysis.R` script does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. This dataset is saved to the current working directory as `tidy.txt`.
 
-The output of `run_analysis.R` is a text file called `tidy.txt`. For a description of the tidy dataset, its variables, and transformations performed to clean up the data, please see the [code book](https://raw.githubusercontent.com/caseyemerson/gettingAndCleaningData/master/codebook.md).
+The output of `run_analysis.R` is a text file called `tidy.txt`. For a description of the tidy dataset, its variables, and transformations performed to clean up the data, please see the [CodeBook](https://raw.githubusercontent.com/caseyemerson/gettingAndCleaningData/master/codebook.md).
