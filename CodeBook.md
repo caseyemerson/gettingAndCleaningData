@@ -34,15 +34,16 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## Modifications and Transformations
 The `run_analysis.R` script performes the following transformations to the original data set:
-1.The test and train data sets are merged together by row into a single data set.
-2.Two additional factor variables are prepended to the data set: **activity** and **subject**.
-	*activity contains links to the class labels with their lower case activity name. Range is from 1 to 6.
-	*subject is identifies the subject (by numeric ID). Range is from 1 to 30.
-3.The merged data set contains several duplicate variables. Duplicate column variables are removed.
-4.The data set is further subsetted by preserving the activity and subject variables and all columns containing the characters "mean" or "std".
-5.The script then cleans the variable names by removing the symbols and capitalizes the factors.
-6.The tidy data set is created by grouping the data by subject and activity, then taking the average of each variable for each activity and each subject.
-7.The tidy data set with the variable names is written to the working directory as `tidy.txt`.
+
+1. The test and train data sets are merged together by row into a single data set.
+2. Two additional factor variables are prepended to the data set: **activity** and **subject**.
+  *activity contains links to the class labels with their lower case activity name. Range is from 1 to 6.
+  *subject is identifies the subject (by numeric ID). Range is from 1 to 30.
+3. The merged data set contains several duplicate variables. Duplicate column variables are removed.
+4. The data set is further subsetted by preserving the activity and subject variables and all columns containing the characters "mean" or "std".
+5. The script then cleans the variable names by removing the symbols and capitalizes the factors.
+6. The tidy data set is created by grouping the data by subject and activity, then taking the average of each variable for each activity and each subject.
+7. The tidy data set with the variable names is written to the working directory as `tidy.txt`.
 
 ## Tidy Data Set Description
 The tidy data set in the `tidy.txt` file contains 180 rows with 60 variables.
