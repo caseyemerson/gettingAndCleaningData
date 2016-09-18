@@ -51,7 +51,6 @@ The tidy data set in the `tidy.txt` file contains 180 rows with 60 variables. Th
 ### Identifiers
 * subject - A numeric identifier for each subject. Range: 1 to 30.
 * activity - A short description of the activity performed during measurement.
-  activity labels:
 	* walking: subject was walking during the test
 	* walking_upstairs: subject was walking up a staircase during the test
 	* walking_downstairs: subject was walking down a staircase during the test
