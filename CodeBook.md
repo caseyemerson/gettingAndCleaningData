@@ -47,6 +47,7 @@ The `run_analysis.R` script performes the following transformations to the origi
 
 ## Tidy Data Set Description
 The tidy data set in the `tidy.txt` file contains 180 rows with 60 variables. The variable names are listed below.
+
 ### Identifiers
 * subject - A numeric identifier for each subject. Range: 1 to 30.
 * activity - A short description of the activity performed during measurement.
@@ -57,6 +58,7 @@ The tidy data set in the `tidy.txt` file contains 180 rows with 60 variables. Th
 	* sitting: subject was sitting during the test
 	* standing: subject was standing during the test
 	* laying: subject was laying down during the test
+
 ### Measurements
 * timeBodyAccelerometer.Mean.X
 * timeBodyAccelerometer.Mean.Y
