@@ -14,4 +14,4 @@ The `run_analysis.R` script does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject. This data set is saved to the current working directory as `tidy.txt`.
 
-The output of `run_analysis.R` is a text file called `tidy.txt`. For a description of the tidy dataset, its variables, and transformations performed to clean up the data, please see the [CodeBook](https://raw.githubusercontent.com/caseyemerson/gettingAndCleaningData/master/CodeBook.md).
+The output of `run_analysis.R` is a text file called `tidy.txt`. For a description of the tidy dataset, its variables, and transformations performed to clean up the data, please see the [CodeBook](https://github.com/caseyemerson/gettingAndCleaningData/blob/master/CodeBook.md).
