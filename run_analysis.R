@@ -29,8 +29,6 @@ names(dataset) <- c("activity", "subject", as.character(features[,2]))
 dataset$subject <-as.factor(dataset$subject)
 # remove duplicate columns
 dataset <- dataset[, !duplicated(colnames(dataset))]
-# cleanup variable space
-#rm(testData, testLabels, testSubject, trainData, trainLabels, trainSubject, test, train)
 
 
 #2. Extract only the measurements on the mean and standard deviation for each measurement.
